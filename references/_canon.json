@@ -1,6 +1,6 @@
 {
-  "canon_sha": "ffab903483de84a9b96d2ae66b3615ab43820282",
-  "generated_at": "2026-05-02T06:11:47.100106+00:00",
+  "canon_sha": "b15a02c85075a04fa6cfbf4884c7ebcb8aaf220a",
+  "generated_at": "2026-05-03T15:36:16.302636+00:00",
   "source_repo": "aummfi-bit/aumm-site",
   "files": [
     "15_overview.md",
@@ -19,6 +19,7 @@
     "12_aureum_glossary.md",
     "13_appendices.md",
     "14_ux_ui.md",
+    "17_faq.md",
     "miliarium_profiles/01_ixHelvetia.md",
     "miliarium_profiles/02_ixAetheron.md",
     "miliarium_profiles/03_ixCasper.md",
