@@ -5,7 +5,7 @@ A Claude Skill that grounds answers about [Project Aureum](https://aumm.fi) in t
 ## What's here
 
 - `SKILL.md` — interpretive layer: triggers, rules, and "I don't know" hygiene.
-- `references/` — generated subset of the canon (9 numbered specs + 28 pool profiles). Each file carries a `<!-- GENERATED FROM aumm-site@<sha> ... — DO NOT EDIT -->` header.
+- `references/` — generated subset of the canon (numbered specs, mirrored Sagix essays under `references/sagix/`, and 28 pool profiles). Each file carries a `<!-- GENERATED FROM aumm-site@<sha> ... — DO NOT EDIT -->` header.
 - `references/_canon.json` — lockfile recording the exact `aumm-site` commit each snapshot reflects.
 
 ## Install (manual, until plugin marketplace publishing is available)
