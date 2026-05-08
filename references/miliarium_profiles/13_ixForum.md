@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@492882d70d8cb5e478d7032150a5dca101cf3034 miliarium_profiles/13_ixForum.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@fc9f1bbb5a291c3d53594203015de57e7e0ad75f miliarium_profiles/13_ixForum.md — DO NOT EDIT -->
 # ixForum — Slot 13
 
 **Sector:** Crypto Infrastructure
