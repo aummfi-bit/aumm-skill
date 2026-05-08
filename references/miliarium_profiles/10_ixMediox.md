@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@fc9f1bbb5a291c3d53594203015de57e7e0ad75f miliarium_profiles/10_ixMediox.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@11348f4b2968d4c1b8602670d8c882260e8fad5d miliarium_profiles/10_ixMediox.md — DO NOT EDIT -->
 # ixMediox — Slot 10
 
 **Sector:** US Fixed Income (aggregate + TIPS)
