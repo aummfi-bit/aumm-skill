@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@11348f4b2968d4c1b8602670d8c882260e8fad5d 07_miliarium_sectors.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@cbf2f197c4e40a6398aea53483cefc9311cea393 07_miliarium_sectors.md — DO NOT EDIT -->
 # Sector Taxonomy
 
 *How the 28 Miliarium pools map to a diversified on-chain economy.*
@@ -49,7 +49,7 @@ The Miliarium Aureum is a **miniature economy**, not a random collection of liqu
 | Pool | Profile | Notes |
 |:-----|:--------|:------|
 | [ixHelvetia](01_ixHelvetia.md) | Frankencoin MMA | **80% svZCHF / 20% sUSDS** — not a standard 52/16/32 pool; no ixEDEL |
-| [ixAetheron](02_ixAetheron.md) | ETH staking | waEthrETH / waEthweETH; non-standard weights |
+| [ixAetheron](02_ixAetheron.md) | ETH staking | sfrxETH / wOETH; non-standard weights |
 | [ixCasper](03_ixCasper.md) | LST / Flux | fWSTETH / fWETH; svZCHF appears as theme |
 | [ixViatica](04_ixViatica.md) | FX / EM | fBRZ / st-EURA |
 | [ixEdelweiss](05_ixEdelweiss.md) | ixEDEL price discovery | Non-standard connector |
