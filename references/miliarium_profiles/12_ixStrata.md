@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@c10cec55dbd589b69783468f701721c962b43265 miliarium_profiles/12_ixStrata.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@dd5fd5f210483395ca105ac7449c0a2202ed2a7f miliarium_profiles/12_ixStrata.md — DO NOT EDIT -->
 # ixStrata — Slot 12
 
 **Sector:** Crypto Infrastructure
