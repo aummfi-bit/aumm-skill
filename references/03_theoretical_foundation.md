@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@3ec2ce2f93a2b7f70b1dfcca09f3322f32f10e17 03_theoretical_foundation.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@b93aa9b19c8c13a6a90c4090e7df1ee49d9a98f2 03_theoretical_foundation.md — DO NOT EDIT -->
 # Theoretical Foundations
 
 ## v. Research foundations
@@ -43,7 +43,7 @@ der Bodensee Pool (AuMM/sUSDS/svZCHF three-token weighted pool, fixed 40/30/30) 
 
 **After Year 1:** pure CCB. Every eligible pool competes on the same score logic; shares are normalized so the full LP emission pie (after Incendiary) is distributed.
 
-**Incendiary priority skim.** Incendiary Boost claims are paid from the **LP emission tranche** **after** the der Bodensee bootstrap skim (zero after Month 10), **before** the remainder is split by equal blend or CCB. Incendiary is not a multiplier inside the CCB score — it is a first claim on the LP tranche. What remains is what the regime allocates. Anyone can boost any gauged pool by depositing any amount of svZCHF/sUSDS one-sided into der Bodensee; the boost lasts 1 epoch (14 days), starting at the next epoch boundary. Once per epoch per pool. Details in [Bootstrap (§xxii)](08_bootstrap.md) and [Constitution (§xxviii)](10_constitution.md).
+**Incendiary priority skim.** Incendiary Boost claims are paid from the **LP emission tranche** **after** the der Bodensee bootstrap skim (zero after Month 10), **before** the remainder is split by equal blend or CCB. Incendiary is not a multiplier inside the CCB score — it is a first claim on the LP tranche. What remains is what the regime allocates. Anyone can boost any gauged pool by depositing svZCHF/sUSDS one-sided into der Bodensee; placement is FCFS walk-forward from the next epoch boundary, and a boost spans as many consecutive epochs as the shared 15%-per-epoch cap requires. Boosts stack additively per pool. Details in [Bootstrap (§xxii)](08_bootstrap.md) and [Constitution (§xxviii)](10_constitution.md).
 
 ### Design rationale
 

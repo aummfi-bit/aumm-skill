@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@3ec2ce2f93a2b7f70b1dfcca09f3322f32f10e17 13_appendices.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@b93aa9b19c8c13a6a90c4090e7df1ee49d9a98f2 13_appendices.md — DO NOT EDIT -->
 # Appendices
 
 ## xxxvi. AMM Architecture: Aequilibrium
@@ -39,7 +39,7 @@ The LP trust proposition: *"The AMM you're depositing into is the same formally 
 - AuMM token contract (ERC-20 with immutable supply cap and halving logic)
 - AuMT accounting layer (Aureum Market Tessera — the token itself is the unchanged Balancer V3 pool token/BPT; the new code is only the per-pool deposit/withdrawal recording that feeds emission claims and governance weight)
 - CCB emission engine (60-day EMA calculator, CCB multiplier computation with slope-based adjustments and dead zone — see [Constitution (§xxix)](10_constitution.md) for all numeric bounds)
-- Incendiary Boost engine (svZCHF/sUSDS deposit into der Bodensee, 1-epoch (14-day) emission streaming, priority skim, once-per-epoch-per-pool lock)
+- Incendiary Boost engine (svZCHF/sUSDS deposit into der Bodensee, FCFS walk-forward emission streaming under a shared 15%-per-epoch cap, priority skim, additive stacking)
 - CCB multiplier engine (slope calculation, dead zone, step adjustments, clamp — all immutable; see [Constitution (§xxix)](10_constitution.md))
 - Emission distributor (per-block streaming with halving logic, CCB-driven weight updates)
 - Gauge eligibility checker (on-chain criteria enforcement, graduated grace period, volume percentile ranking, hysteresis buffer, efficiency tournament with 3-epoch smoothing, gauge revocation logic)

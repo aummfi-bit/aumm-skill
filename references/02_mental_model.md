@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@3ec2ce2f93a2b7f70b1dfcca09f3322f32f10e17 02_mental_model.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@b93aa9b19c8c13a6a90c4090e7df1ee49d9a98f2 02_mental_model.md — DO NOT EDIT -->
 # Aureum Protocol
 
 > **AuMM** is earned by **liquidity**: capital in productive pools, not hashrate or proof-of-work.  
@@ -69,7 +69,7 @@ Which pools should receive emissions right now? Base weight = 60-day EMA of on-c
 
 ### 2. Bootstrapping (Starting New Pools)
 
-New pools have no EMA history, so they need a path to earn emissions. **Incendiary Boost** is the cold-start mechanism — anyone deposits any amount of svZCHF/sUSDS one-sided into der Bodensee Pool, and the target pool receives a 1-epoch (14-day) supplementary AuMM stream starting next epoch; once per epoch per pool. After Incendiary's 14-day window, emissions depend purely on real TVL via the CCB. The sequence: conviction (Incendiary) → long-term reality (EMA).
+New pools have no EMA history, so they need a path to earn emissions. **Incendiary Boost** is the cold-start mechanism — anyone deposits svZCHF/sUSDS one-sided into der Bodensee Pool, and the target pool receives a supplementary AuMM stream starting next epoch. Placement is first-come, first-served against a shared per-epoch cap, so a larger deposit streams across more consecutive epochs rather than more heavily in one, and boosts stack. Once the entitlement is exhausted, emissions depend purely on real TVL via the CCB. The sequence: conviction (Incendiary) → long-term reality (EMA).
 
 ### 3. Discipline (Keeping the System Clean)
 

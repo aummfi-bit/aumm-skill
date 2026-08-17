@@ -1,10 +1,12 @@
-<!-- GENERATED FROM aumm-site@3ec2ce2f93a2b7f70b1dfcca09f3322f32f10e17 miliarium_profiles/07_ixCambio.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@b93aa9b19c8c13a6a90c4090e7df1ee49d9a98f2 miliarium_profiles/07_ixCambio.md — DO NOT EDIT -->
 # ixCambio — Slot 07
 
 **Sector:** Routing Infrastructure
 **Template:** Non-Standard (6-token FX hub, 4626-heavy)
 
 ---
+
+> **Slot 07 is not in the launch constellation.** The protocol launched 26 of 28 Miliarium pools; slots 04 and 07 were descoped per PB-D8. `aEURS` does not exist on Ethereum mainnet: the Aave address book carries no EURS entry across the V3 Core, Lido, EtherFi and V2 Ethereum sources (re-probed 2026-07-12; the Polygon source returns EURS, so the method detects it where it is listed). Without aEURS's 18 points the ERC-4626 numerator falls to 37%, below the immutable 52% Quality Gate floor — the pool is unbuildable as specced, not merely underfunded. The composition stands unamended deliberately: substituting a different EUR-4626 leg is a spec amendment, and those belong to the Stage-O composition-challenge path (`registerGaugeFromComposition`, governance-only, like-for-like). The slot re-enters if and when aEURS lists on Ethereum.
 
 ## Composition
 
