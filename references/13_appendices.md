@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@83001e03f39b1f1ec57d7c577d343f0ed445f7c0 13_appendices.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@ddab114617c790e93b1f5ba09282a4ff63b09a92 13_appendices.md — DO NOT EDIT -->
 # Appendices
 
 ## xxxvi. AMM Architecture: Aequilibrium
@@ -113,6 +113,8 @@ Curve's Yield Basis protocol (March 2026) independently validated the same core 
 ---
 
 ## xxxix. Competitive Position
+
+The mechanisms compared below — multi-asset pools, ERC-4626 yield, fair launch, der Bodensee — exist to test a single idea: whether constitutional capital allocation can outperform political treasury governance. That thesis is stated in [Theoretical Foundations §v-a — Why Aureum Exists](03_theoretical_foundation.md). Aureum is not aiming to be a better Curve or a better Balancer; it is aiming at a different constitutional model.
 
 ### LP Advantage Over Uniswap
 
