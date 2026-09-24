@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@680ae2179fea291b3e2fdb616c912bb580b6f930 15_overview.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@bd0ea9d9d478518b10507d68888d544fb3948874 15_overview.md — DO NOT EDIT -->
 # Overview
 
 **Capital allocation under immutable laws.** AUREUM is a constitutional capital market built on a Balancer V3-derived AMM substrate. Anyone can create a pool, express an investment thesis, and compete for fixed AuMM emissions under the same on-chain rules. No premine. No treasury. No discretionary emission allocation.
