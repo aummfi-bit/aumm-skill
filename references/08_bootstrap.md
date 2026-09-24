@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@bd0ea9d9d478518b10507d68888d544fb3948874 08_bootstrap.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@c6219aed46ee997d0b6f125ac14484681dcc05f6 08_bootstrap.md — DO NOT EDIT -->
 # Bootstrap Rules
 
 *How new pools enter the emission economy.*

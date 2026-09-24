@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@bd0ea9d9d478518b10507d68888d544fb3948874 miliarium_profiles/09_ixAltrix.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@c6219aed46ee997d0b6f125ac14484681dcc05f6 miliarium_profiles/09_ixAltrix.md — DO NOT EDIT -->
 # ixAltrix — Slot 09
 
 **Sector:** US Fixed Income (high yield)
