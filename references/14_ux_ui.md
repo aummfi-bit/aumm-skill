@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@85b66ea5eaf0545b4afaccab7a36b8fe9b97b197 14_ux_ui.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@a1f1fc6369db9983e2e4e3a8beb1156e8115daf1 14_ux_ui.md — DO NOT EDIT -->
 # UX / UI — Frontend Requirements
 
 *Dashboard and interface elements for aumm.fi. This is a planning document — no code yet.*
