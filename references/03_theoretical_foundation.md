@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@c6219aed46ee997d0b6f125ac14484681dcc05f6 03_theoretical_foundation.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@a47edf03bbfbba859c070479d0a97f4ecd164cb9 03_theoretical_foundation.md — DO NOT EDIT -->
 # Theoretical Foundations
 
 ## v. Research foundations
@@ -24,6 +24,8 @@ The CCB draws on research across multiple disciplines:
 ---
 
 ## v-a. Why Aureum Exists
+
+### Capital Allocation Under Immutable Laws
 
 Aureum should not be understood primarily as an automated market maker. The AMM is infrastructure. The protocol's true purpose is a **constitutional capital market**. Bitcoin showed that money can operate under immutable laws rather than discretionary management; Aureum extends that principle to **capital allocation**. Permissionless pools express investment theses. The Continuous Central Bank allocates emissions according to transparent rules. der Bodensee accumulates value without a treasury. Governance is constrained by constitutional limits. The result is a system designed to answer a simple question: can capital markets operate more effectively under laws than under politics?
 
