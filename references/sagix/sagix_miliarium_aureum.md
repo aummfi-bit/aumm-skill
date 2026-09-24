@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@c6219aed46ee997d0b6f125ac14484681dcc05f6 sagix/sagix_miliarium_aureum.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@03e026a9147eb730b73c754d19acf81c7350189a sagix/sagix_miliarium_aureum.md — DO NOT EDIT -->
 # Sagix Miliarium Aureum
 
 **Canonical source (Sagix Apothecary):** https://www.sagix.io/sagix-miliarium-aureum/
@@ -179,7 +179,7 @@ This article is part of the Druid Deep Dive series exploring historical parallel
 
 **Contemporary financial systems:** References to modern financial systems, cryptocurrency protocols, or DeFi mechanisms are made for educational comparison purposes only. These comparisons do not constitute endorsements, recommendations, or predictions about the performance or suitability of any current financial products or services.
 
-Last updated: March 2026 | Series: The Druid Deep Dive |Publisher: The Genesis Address LLC
+Last updated: March 2026 | Series: The Druid Deep Dive |Publisher: The Genesis Address Publishing LLC
 
 ---
 

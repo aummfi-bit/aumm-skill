@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@c6219aed46ee997d0b6f125ac14484681dcc05f6 sagix/eurodollar_shadow.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@03e026a9147eb730b73c754d19acf81c7350189a sagix/eurodollar_shadow.md — DO NOT EDIT -->
 # The Druid Deep Dive, Episode 9, Part 2: The Eurodollar shadow: when dollars escape their makers
 
 **Canonical source (Sagix Apothecary):** https://www.sagix.io/the-druid-deep-dive-episode-9-part-2-the-eurodollar-shadow-when-dollars-escape-their-makers/
@@ -157,7 +157,7 @@ But even deep pools with backstops face a risk that only becomes visible when yo
 
 **Crisis analysis** : Historical analysis of financial crises is provided for educational understanding of systemic risk patterns. This content does not predict future crises or recommend specific crisis preparation strategies. Readers should consult qualified professionals for personalized risk management advice.
 
-**Publication information** : Last Updated: March 2026 | Series: The Druid Deep Dive | Publisher: The Genesis Address LLC
+**Publication information** : Last Updated: March 2026 | Series: The Druid Deep Dive | Publisher: The Genesis Address Publishing LLC
 
 ---
 
