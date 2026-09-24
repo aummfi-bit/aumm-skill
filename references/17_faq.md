@@ -1,11 +1,11 @@
-<!-- GENERATED FROM aumm-site@c6219aed46ee997d0b6f125ac14484681dcc05f6 17_faq.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@85b66ea5eaf0545b4afaccab7a36b8fe9b97b197 17_faq.md — DO NOT EDIT -->
 # FAQ
 
 ## Foundations
 
 ### What is Aureum?
 
-**Capital allocation under immutable laws.** Aureum is a **constitutional capital market** built on a Balancer V3-derived AMM substrate — not primarily an AMM and not a better Balancer. Anyone can create a pool, express an investment thesis, and compete for fixed AuMM emissions under the same on-chain rules. No premine. No treasury. No discretionary emission allocation. Permissionless pools, BTC-style emissions, autonomous reserve (der Bodensee), constitutional governance. The 28 Miliarium pools are the **genesis market**, not a closed market. Short stack: [Overview](15_overview.md). Full thesis: [Theoretical Foundations §v-a](03_theoretical_foundation.md).
+**Capital Allocation Under Immutable Laws.** Aureum is a **constitutional capital market** built on a Balancer V3-derived AMM substrate — not primarily an AMM and not a better Balancer. Anyone can create a pool, express an investment thesis, and compete for fixed AuMM emissions under the same on-chain rules. No premine. No treasury. No discretionary emission allocation. Permissionless pools, BTC-style emissions, autonomous reserve (der Bodensee), constitutional governance. The 28 Miliarium pools are the **genesis market**, not a closed market. Short stack: [Overview](15_overview.md). Full thesis: [Theoretical Foundations §v-a](03_theoretical_foundation.md).
 
 ### Why does Aureum exist?
 
