@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@a1f1fc6369db9983e2e4e3a8beb1156e8115daf1 miliarium_profiles/11_ixLongus.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@6fac8954e2a4564f99972f4906f938de776c0903 miliarium_profiles/11_ixLongus.md — DO NOT EDIT -->
 # ixLongus — Slot 11
 
 **Sector:** US Fixed Income (long Treasury)
