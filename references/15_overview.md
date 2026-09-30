@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@045ee12cae039c245e1e308ac81efcc14a8d67ee 15_overview.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@a3771b2237c53216eef3ef7b2212e57a9aa1eaac 15_overview.md — DO NOT EDIT -->
 # Overview
 
 ## Capital Allocation Under Immutable Laws

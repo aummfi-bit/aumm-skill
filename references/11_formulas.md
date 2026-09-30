@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@045ee12cae039c245e1e308ac81efcc14a8d67ee 11_formulas.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@a3771b2237c53216eef3ef7b2212e57a9aa1eaac 11_formulas.md — DO NOT EDIT -->
 # Protocol Formulas
 
 *Every formula governing emission allocation, multiplier adjustment, governance power, and (for non-Miliarium targets) gauge-challenge deposits — organized by protocol phase. **All governance deposits** are **one-sided into der Bodensee Pool**; only amounts differ ([Constitution §xxvii](10_constitution.md)).*
