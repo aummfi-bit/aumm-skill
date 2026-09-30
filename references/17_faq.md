@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@53f109882f5d09495a93fc80f1c38a42e5b161b8 17_faq.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@045ee12cae039c245e1e308ac81efcc14a8d67ee 17_faq.md — DO NOT EDIT -->
 # FAQ
 
 ## Foundations
