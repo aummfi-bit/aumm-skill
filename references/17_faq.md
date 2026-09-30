@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@a3771b2237c53216eef3ef7b2212e57a9aa1eaac 17_faq.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@e6ab8922de81933773d63c0208989cc8ea00dfd1 17_faq.md — DO NOT EDIT -->
 # FAQ
 
 ## Foundations
@@ -123,7 +123,7 @@ Not investment advice. The thesis only works as long as swap volume, Bodensee de
 
 Governance is permitted three actions. None of them touch emission allocation.
 
-Gauge eligibility is not a governance action — a new pool becomes gauge-eligible permissionlessly the moment it satisfies the immutable criteria gate (4626 Quality Gate ≥52% by class-admitted weight, 10,000 svZCHF TVL on the latest completed day window, creation by the Aureum weighted-pool factory, no self-referential tokens, not in recovery mode, role accounts renounced, a fee rail to der Bodensee, and a registered swap fee within 0.01%–0.30%). Anti-spam fee: 100 svZCHF or 125 sUSDS, one-sided into Bodensee, non-refundable on success or any failed check. No vote, no quorum.
+Gauge eligibility is not a governance action — a new pool becomes gauge-eligible permissionlessly the moment it satisfies the immutable criteria gate (4626 Quality Gate ≥52% by class-admitted weight, 10,000 svZCHF TVL on the latest completed day window, creation by the Aureum weighted-pool factory, no self-referential tokens, not in recovery mode, role accounts renounced, a fee rail to der Bodensee, a registered swap fee within 0.01%–0.30%, and registered on the protocol's fee-routing hook). Anti-spam fee: 100 svZCHF or 125 sUSDS, one-sided into Bodensee, non-refundable once taken. No vote, no quorum.
 
 A gauge challenge revokes an existing non-Miliarium gauge. Deposit follows F-12: `max(10 BTC CHF equiv., 1,000,000 CHF × √((1−p_tvl)(1−p_eff)))`, one-sided into Bodensee. Threshold: simple majority, 20% quorum. Cannot target the 28 Miliarium pools.
 
@@ -139,7 +139,7 @@ Governance cannot alter the emission schedule, halving math, CCB engine paramete
 
 Permissionlessly. There is no governance vote on gauging individual pools. A pool becomes gauge-eligible the moment it satisfies the immutable criteria gate, and stays gauged until those criteria fail or someone successfully revokes it.
 
-The activation criteria. (1) The 4626 Quality Gate: at least 52% of pool weight in yield-bearing tokens whose ERC-4626 class is admitted to the Vault-Class Registry. (2) Minimum TVL: 10,000 svZCHF on the latest completed day window. (3) No self-referential tokens — AuMM cannot be a pool component. (4) Created by the Aureum weighted-pool factory. (5) Not in recovery mode. (6) Role accounts renounced: `pauseManager`, `swapFeeManager` and `poolCreator` all zero. (7) A fee rail to der Bodensee: the pool holds svZCHF or sUSDS, or its recovery path was admitted at deployment. (8) A registered static swap fee within 0.01%–0.30%. All eight must hold simultaneously and are enforced on-chain.
+The activation criteria. (1) The 4626 Quality Gate: at least 52% of pool weight in yield-bearing tokens whose ERC-4626 class is admitted to the Vault-Class Registry. (2) Minimum TVL: 10,000 svZCHF on the latest completed day window. (3) No self-referential tokens — AuMM cannot be a pool component. (4) Created by the Aureum weighted-pool factory. (5) Not in recovery mode. (6) Role accounts renounced: `pauseManager`, `swapFeeManager` and `poolCreator` all zero. (7) A fee rail to der Bodensee: the pool holds svZCHF or sUSDS, or its recovery path was admitted at deployment. (8) A registered static swap fee within 0.01%–0.30%. (9) Registered on the protocol's fee-routing hook. All nine must hold simultaneously and are enforced on-chain.
 
 The activation cost. A flat anti-spam fee — `antiSpamFee = 100 svZCHF` or 125 sUSDS — deposited one-sided into Bodensee, non-refundable on success or any failed check. No vote, no quorum, no proposal. The fee exists to prevent zero-cost gauge farming.
 

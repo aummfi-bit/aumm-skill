@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@a3771b2237c53216eef3ef7b2212e57a9aa1eaac 02_mental_model.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@e6ab8922de81933773d63c0208989cc8ea00dfd1 02_mental_model.md — DO NOT EDIT -->
 # Aureum Protocol
 
 > **AuMM** is earned by **liquidity**: capital in productive pools, not hashrate or proof-of-work.  
