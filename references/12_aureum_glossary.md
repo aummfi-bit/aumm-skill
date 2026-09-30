@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@63cb07816e13b1dceecda8030ab242230c9ae5f9 12_aureum_glossary.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@e3d03876b29ae8a961549b33dbcd17c64ec4bdb2 12_aureum_glossary.md — DO NOT EDIT -->
 # Aureum Protocol - Glossary
 
 ## Voice / Lexicon
