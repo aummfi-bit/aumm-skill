@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@d04097c228bf9b06f107db7302e2fb2a48813339 03_theoretical_foundation.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@4b65efee5a3943bb82d0597bb59edbeaca48ebb7 03_theoretical_foundation.md — DO NOT EDIT -->
 # Theoretical Foundations
 
 ## v. Research foundations
