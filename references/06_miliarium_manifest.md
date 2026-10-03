@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@e6ab8922de81933773d63c0208989cc8ea00dfd1 06_miliarium_manifest.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@d04097c228bf9b06f107db7302e2fb2a48813339 06_miliarium_manifest.md — DO NOT EDIT -->
 # Miliarium Aureum — Master Registry
 
 *28 Miliarium Aureum slots, locked from block 0. If a token ceases to exist, a Composition Challenge can deprecate the pool and launch a replacement into the same slot via the standard bootstrap path — preserving each pool's function and sector theme.*
@@ -56,17 +56,15 @@ Slot **01 (ixHelvetia):** **80% svZCHF / 20% sUSDS** Frankencoin MMA only ([Mili
 
 ## xv. Status Tracking
 
-All pools initialise at **Active**. The 28 slots are permanent — the count never decreases.
+All pools initialise at **Active**, and a Miliarium slot holder **stays Active**: it is exempt from both discipline stages — never Warned, Disqualified, or revoked by the discipline. The exemption keys on **holding a slot**, so a composition replacement is exempt from the block it is seated. Slot holders still rank in the volume census and the Efficiency Tournament, and take the efficiency caps from the genesis month-13 start. Warning and Disqualified are states of the non-slot discipline ([Bootstrap §xxiii](08_bootstrap.md)). The 28 slots are permanent — the count never decreases.
 
 ```
-Active → Warning → Disqualified ⇄ Composition Challenge (deprecate-and-replace)
+Active ⇄ Composition Challenge (deprecate-and-replace)
 ```
 
 | Status | Condition | Emissions | Recovery |
 |:-------|:----------|:----------|:---------|
-| **Active** | Above 15th volume percentile, passes all criteria | Full emissions + CCB multiplier | — |
-| **Warning** | 10th–15th volume percentile | Emissions continue (3-epoch grace) | Return above 15th percentile |
-| **Disqualified** | Below 10th volume percentile | Zero (redistributed to remaining eligible pools) | Sustain above 15th for 3 epochs (6 weeks), or Miliarium Aureum Composition Challenge |
+| **Active** | Holds a Miliarium slot and passes all criteria; never Warned or Disqualified | Full emissions + CCB multiplier | — |
 | **Composition Challenge** | Token(s) delisted, insufficient volume, or ceased to exist | Old pool deprecated; replacement launched into same slot via composition-challenge approval (automatic gauge registration via `registerGaugeFromComposition`). Requires 2/3 protocol-wide tessera-weighted vote | Like-for-like: same sector, same risk, same template role. Slot remains active with CCB multiplier |
 
 ---
