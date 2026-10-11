@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@4ea945621b64cbd00513a604907a983fd1d77bc5 sagix/sagix_miliarium_aureum.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@88b321e07e4e6a844bff4c574620d8bb38992049 sagix/sagix_miliarium_aureum.md — DO NOT EDIT -->
 # Sagix Miliarium Aureum
 
 **Canonical source (Sagix Apothecary):** https://www.sagix.io/sagix-miliarium-aureum/

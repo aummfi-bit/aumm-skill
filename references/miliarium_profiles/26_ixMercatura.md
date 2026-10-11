@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@4ea945621b64cbd00513a604907a983fd1d77bc5 miliarium_profiles/26_ixMercatura.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@88b321e07e4e6a844bff4c574620d8bb38992049 miliarium_profiles/26_ixMercatura.md — DO NOT EDIT -->
 # ixMercatura — Slot 26
 
 **Sector:** Fintech / Brokers

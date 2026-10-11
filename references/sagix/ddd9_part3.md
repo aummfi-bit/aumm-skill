@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@4ea945621b64cbd00513a604907a983fd1d77bc5 sagix/ddd9_part3.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@88b321e07e4e6a844bff4c574620d8bb38992049 sagix/ddd9_part3.md — DO NOT EDIT -->
 # The Druid Deep Dive, Episode 9, Part 3: The invisible pipes: how clearing systems made money move
 
 **Canonical source (Sagix Apothecary):** https://www.sagix.io/ddd-9-part-3/
