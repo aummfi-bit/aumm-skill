@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@88b321e07e4e6a844bff4c574620d8bb38992049 14_ux_ui.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@ecc6c6e40b4418a74b88e0bea2ae9590c8a1760a 14_ux_ui.md — DO NOT EDIT -->
 # UX / UI — Frontend Requirements
 
 *Dashboard and interface elements for aumm.fi. This is a planning document — no code yet.*
@@ -105,7 +105,7 @@ The MVP/post-MVP distinction is a planning tool — all of the sections below de
 ## li. LP Position Manager
 
 - [ ] **My positions** — per-pool AuMT holdings, USD value, emission earnings (accrued, claimed), governance power
-- [ ] **Governance power calculator** — show current power based on (USD value x time held)^(1/4 or 1/3), qualification status (14-day minimum, 6-month ramp)
+- [ ] **Governance power calculator** — show current power based on (pool TVL EMA)^(1/4 or 1/3) x LP share x each deposit's time factor, qualification status (14-day minimum, 6-month ramp)
 - [ ] **Emission estimator** — projected AuMM earnings per block/day/month based on current pool weights and LP share
 - [ ] **Deposit / Withdraw** — pool entry and exit interface with IL estimate
 
