@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@6cddc71e34ed7fd13ab45bcd0562be6e03b4983b 16_team.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@1b4234c7a505dfb454dd2ac054f788cc282da4f9 16_team.md — DO NOT EDIT -->
 # Team
 
 > **Aumm.fi is a publication of The Genesis Address Publishing LLC.** The site documents protocol design, governance bounds, and the Miliarium Aureum constellation. It is editorial and research material — not a product offering, not a managed account, and not a solicitation. See the [Disclaimer](#xliii-disclaimer) below.

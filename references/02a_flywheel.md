@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@6cddc71e34ed7fd13ab45bcd0562be6e03b4983b 02a_flywheel.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@1b4234c7a505dfb454dd2ac054f788cc282da4f9 02a_flywheel.md — DO NOT EDIT -->
 # The Flywheel
 
 *Section **v.** of [Mental model](02_mental_model.md#v-the-flywheel) — read in context there.*
@@ -9,7 +9,7 @@
 
 Follow one dollar around the loop.
 
-1. **Emissions recruit capital.** A fixed AuMM stream per block — **1.00 AuMM/block in Era 0** ([Tokenomics](04_tokenomics.md)) — pays LPs who deposit productive capital. The stream is fixed in *tokens*; its dollar value is `AuMM_per_block × AuMM_price`.
+1. **Emissions recruit capital.** A fixed AuMM stream per block — **1.00 AuMM/block in Era 0** ([Tokenomics](04_tokenomics.md)) — pays LPs who deposit productive capital and stake their AuMT. The stream is fixed in *tokens*; its dollar value is `AuMM_per_block × AuMM_price`.
 2. **Capital generates revenue.** Every dollar of TVL in an ERC-4626 pool can yield from block 0; every trade pays a swap fee — the **Day-one fee architecture**, not volume-dependent.
 3. **Revenue deepens der Bodensee.** Protocol swap fees (**99.9999%** of charged fee) and the **10%** ERC-4626 yield skim route one-sided into der Bodensee as sUSDS/svZCHF; der Bodensee's **60%** stablecoin side compounds in-place via Rate Providers. Three inflows, one direction ([Tokenomics §x-a](04_tokenomics.md)).
 4. **Balances set AuMM’s implied spot.** Fixed **40%** AuMM side; bootstrap one-sided inflow decays to **zero at Month 10** ([F-0](11_formulas.md)), after which AuMM enters only via swap. When the stablecoin side grows relative to the AuMM side, weighted-pool math updates the AuMM↔stablecoin exchange rate. No buyback, no burn, no discretion. **The pool is the value-capture mechanism.**
