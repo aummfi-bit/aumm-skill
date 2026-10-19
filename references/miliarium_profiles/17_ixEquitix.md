@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@9403cee1531a5910042df0455032bebea701febc miliarium_profiles/17_ixEquitix.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@484771e7444bd499452200dcffc3dc45801c19e9 miliarium_profiles/17_ixEquitix.md — DO NOT EDIT -->
 # ixEquitix — Slot 17
 
 **Sector:** US Equities (Large Cap)
