@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@1b4234c7a505dfb454dd2ac054f788cc282da4f9 miliarium_profiles/03_ixCasper.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@9403cee1531a5910042df0455032bebea701febc miliarium_profiles/03_ixCasper.md — DO NOT EDIT -->
 # ixCasper — Slot 03
 
 **Sector:** LST / Staking Derivatives
