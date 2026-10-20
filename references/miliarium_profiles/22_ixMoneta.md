@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@484771e7444bd499452200dcffc3dc45801c19e9 miliarium_profiles/22_ixMoneta.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@09f269038989b4745f5f7960310a0e7dd990172a miliarium_profiles/22_ixMoneta.md — DO NOT EDIT -->
 # ixMoneta — Slot 22
 
 **Sector:** Banking / Financials
