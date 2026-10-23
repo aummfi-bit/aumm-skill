@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@17a98ef63c6bf1b12296a73088a494b9b05c449c miliarium_profiles/14_ixAurebit.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@c7b2e0944da7c0bc04889371b97df66cb01fc429 miliarium_profiles/14_ixAurebit.md — DO NOT EDIT -->
 # ixAurebit — Slot 14
 
 **Sector:** Digital Gold / Bitcoin
