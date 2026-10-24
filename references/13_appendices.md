@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@4e0f8c5b7c1a738db55bd2fc61c6dd497181fb13 13_appendices.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@d111cc1c6b9285ae1f62558a54405b512a9668da 13_appendices.md — DO NOT EDIT -->
 # Appendices
 
 ## xxxvi. AMM Architecture: Aequilibrium

@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@4e0f8c5b7c1a738db55bd2fc61c6dd497181fb13 14_ux_ui.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@d111cc1c6b9285ae1f62558a54405b512a9668da 14_ux_ui.md — DO NOT EDIT -->
 # UX / UI — Frontend Requirements
 
 *Dashboard and interface elements for aumm.fi. This is a planning document — no code yet.*
@@ -113,7 +113,7 @@ The MVP/post-MVP distinction is a planning tool — all of the sections below de
 
 ## lii. Incendiary Boost
 
-- [ ] **Active boosts** — which pools have active Incendiary Boost, epoch remaining, emission rate, deposit amount
+- [ ] **Active boosts** — which pools have active Incendiary Boost, epochs remaining, emission rate, deposit amount
 - [ ] **Boost history** — past Incendiary Boost activations, svZCHF/sUSDS deposited, emission delivered, pool performance during boost
 - [ ] **Priority skim impact** — how much of the current block emission is allocated to Incendiary claims vs CCB remainder
 

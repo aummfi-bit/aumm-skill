@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@4e0f8c5b7c1a738db55bd2fc61c6dd497181fb13 04_tokenomics.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@d111cc1c6b9285ae1f62558a54405b512a9668da 04_tokenomics.md — DO NOT EDIT -->
 # Tokenomics
 
 ## ix. Token Design: AuMM (Aureum Market Maker)
@@ -199,7 +199,7 @@ Bootstrap AuMM accrues per block and is delivered **one-sided** into der Bodense
 
 ### How stablecoins enter the pool (continuous protocol revenue)
 
-**100%** of the **protocol share** of swap fees on all non–der Bodensee gauged pools (**100%** of what **`protocolSwapFeePercentage`** assigns — **99.9999%** of charged swap fee volume) plus **100%** of the ERC-4626 yield fee (10% skim on yield-bearing tokens in **non–der Bodensee gauged pools**) enter der Bodensee as **one-sided stablecoin deposits** (routed as svZCHF per Constitution §xxix), deepening the reserve side with every route once der Bodensee is initialized and waiting on the fee-routing hook before it. **LP residuals** on those swap fees remain with originating-pool LPs. Governance proposal deposits and Incendiary Boost deposits use the same one-sided path and revert until der Bodensee is initialized.
+**100%** of the **protocol share** of swap fees on all non–der Bodensee gauged pools (**100%** of what **`protocolSwapFeePercentage`** assigns — **99.9999%** of charged swap fee volume) plus **100%** of the ERC-4626 yield fee (10% skim on yield-bearing tokens in **non–der Bodensee gauged pools**) enter der Bodensee as **one-sided stablecoin deposits** (routed as svZCHF per Constitution §xxix), deepening the reserve side with every route once der Bodensee is initialized and waiting on the fee-routing hook before it. **LP residuals** on those swap fees remain with originating-pool LPs. Governance proposal deposits and Incendiary Boost deposits use the same one-sided path; before der Bodensee is initialized, proposal deposits are escrowed, anyone may flush them into der Bodensee once it is initialized, and Incendiary deposits revert.
 
 ### Value capture (no buyback, no burn, no market purchases)
 
