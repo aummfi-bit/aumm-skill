@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@3b743a991232e27d88f94eebb11af36f5cb8d540 15_overview.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@127a283da89762dd5b3ec19662960281cfd736e8 15_overview.md — DO NOT EDIT -->
 # Overview
 
 ## Capital Allocation Under Immutable Laws
@@ -96,8 +96,8 @@ Two tracks, depending on what you need:
 - Constitutional capital market (AMM substrate, not the product)
 - Fair launch
 - Immutable from block 0
-- No multisig
-- No admin keys
+- No multisig beyond the one-time emergency window ([Constitution §xxix](10_constitution.md))
+- No admin keys beyond that window
 - No voting over emissions
 - Oracle-free core operation
 
