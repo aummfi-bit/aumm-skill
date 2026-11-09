@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@2cd7e1b0b63b80bf747701d018225cd9a955051c sagix/decentralized_money.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@18ccf374c1d74d92731741788cecae6c5ea6789f sagix/decentralized_money.md — DO NOT EDIT -->
 # The Druid Deep Dive, Episode 9, Part 1: The bank war: Central vs. decentralized money
 
 **Canonical source (Sagix Apothecary):** https://www.sagix.io/decentralized-money/
