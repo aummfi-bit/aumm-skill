@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@18ccf374c1d74d92731741788cecae6c5ea6789f 11_formulas.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@acfaa62a16f16c38663fd16715cdfd523030a9d4 11_formulas.md — DO NOT EDIT -->
 # Protocol Formulas
 
 *Every formula governing emission allocation, multiplier adjustment, governance power, and (for non-Miliarium targets) gauge-challenge deposits — organized by protocol phase. **All governance deposits** are **one-sided into der Bodensee Pool**; only amounts differ ([Constitution §xxvii](10_constitution.md)).*
@@ -33,7 +33,7 @@ else:
 lp_share(block) = 1 − bodensee_share(block)
 ```
 
-AuMM accrued for der Bodensee Pool in block **b** equals **bodensee_share(b) × block_emission(b)**. The channel delivers the accrual in **flushes**, at most one a day, each at most two days of accrual at the opening rate (80% of the genesis block emission), carrying the rest to the next flush; a flush defers to a later block whenever the block already holds a liquidity add to der Bodensee other than a donation, so no add, flush and remove fit in one block. Delivery begins once der Bodensee is initialized. After the final block of Month 10 nothing more accrues — the treasury/bootstrap channel is **immutable at zero** — and any backlog still carried drains in later flushes.
+AuMM accrued for der Bodensee Pool in block **b** equals **bodensee_share(b) × block_emission(b)**. The channel delivers the accrual in **flushes**: at most one a day, none while a Vault transaction is open, and none in the last `TWAP_WINDOW_BLOCKS` before a day boundary, the window the next day's flushes read. Each flush, including those that drain a backlog after Month 10, is at most the lesser of two days of accrual at the opening rate (80% of the genesis block emission) and 1% of der Bodensee's AuMM balance, taken as the lesser of that balance averaged over the latest completed day window and that balance at the flush, carrying the rest to the next flush; a flush whose 1% bound is zero defers to a later block, and so does a flush whenever the block already holds a liquidity add to der Bodensee other than a donation, its initialization not counting as an add, so no add, flush and remove fit in one block. Delivery begins with the first flush after a day window has completed over der Bodensee's balance, not at its initialization. After the final block of Month 10 nothing more accrues — the treasury/bootstrap channel is **immutable at zero** — and any backlog still carried drains in later flushes.
 
 ---
 
