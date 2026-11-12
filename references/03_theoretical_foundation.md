@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@acfaa62a16f16c38663fd16715cdfd523030a9d4 03_theoretical_foundation.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@40db2d525aa86dd1172c172a3ce25662fb06855a 03_theoretical_foundation.md — DO NOT EDIT -->
 # Theoretical Foundations
 
 ## v. Research foundations
@@ -175,7 +175,7 @@ der Bodensee Pool (AuMM/sUSDS/svZCHF three-token weighted pool, fixed 40/30/30) 
 
 **After Year 1:** pure CCB. Every eligible pool competes on the same score logic; shares are normalized so the full LP emission pie (after Incendiary) is distributed.
 
-**Incendiary priority skim.** Incendiary Boost claims are paid from the **LP emission tranche** **before** the remainder is split by CCB; boosts open at the first block after Year 1, when the der Bodensee bootstrap skim (zero after Month 10), the equal split and the blend have all ended. Incendiary is not a multiplier inside the CCB score — it is a first claim on the LP tranche. What remains is what the regime allocates. Anyone can boost any gauged pool by depositing svZCHF/sUSDS one-sided into der Bodensee; placement is FCFS walk-forward from the next epoch boundary, and a boost spans as many consecutive epochs as the shared 15%-per-epoch cap requires. Boosts stack additively per pool. Details in [Bootstrap (§xxii)](08_bootstrap.md) and [Constitution (§xxviii)](10_constitution.md).
+**Incendiary priority skim.** Incendiary Boost claims are paid from the **LP emission tranche** **before** the remainder is split by CCB; boosts open at the first block after Year 1, when the der Bodensee bootstrap skim (zero after Month 10), the equal split and the blend have all ended. Incendiary is not a multiplier inside the CCB score — it is a first claim on the LP tranche. What remains is what the regime allocates. Anyone can boost any gauged pool with a svZCHF/sUSDS deposit, escrowed at purchase and released one-sided into der Bodensee in bounded releases; placement is FCFS walk-forward from the next epoch boundary, and a boost spans as many consecutive epochs as the shared 15%-per-epoch cap requires, within a 26-epoch horizon that a purchase must fit or revert. Boosts stack additively per pool. Details in [Bootstrap (§xxii)](08_bootstrap.md) and [Constitution (§xxviii)](10_constitution.md).
 
 ### Design rationale
 

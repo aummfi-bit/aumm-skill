@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@acfaa62a16f16c38663fd16715cdfd523030a9d4 02a_flywheel.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@40db2d525aa86dd1172c172a3ce25662fb06855a 02a_flywheel.md — DO NOT EDIT -->
 # The Flywheel
 
 *Section **v.** of [Mental model](02_mental_model.md#v-the-flywheel) — read in context there.*
@@ -47,7 +47,7 @@ Same circuit from the protocol's view; three participant positions, three levera
 - full **0.75%** in-pool swap fee on every trade, including every recruitment buy;
 - in-place ERC-4626 yield on the **60%** stablecoin side via Rate Providers;
 - exposure to the implied AuMM↔stablecoin exchange rate on your **40%** AuMM leg as fee inflows change balances;
-- a pro-rata share of every bootstrap flush and fee donation into der Bodensee, as the founding BPT also has.
+- a pro-rata share of every bootstrap flush, fee donation and release of an Incendiary deposit into der Bodensee, as the founding BPT also has.
 
 Cost: impermanent loss on the AuMM leg — if AuMM’s implied spot moves up sharply, the pool nets you selling AuMM vs. simply holding. Deep-conviction only: long AuMM, wear the rebalancing cost, collect the toll on everyone else's recruitment.
 

@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@acfaa62a16f16c38663fd16715cdfd523030a9d4 09_transitions.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@40db2d525aa86dd1172c172a3ce25662fb06855a 09_transitions.md — DO NOT EDIT -->
 # Transition Rules
 
 *Timeline from equal emissions through a linear blend to fully automatic CCB.*
