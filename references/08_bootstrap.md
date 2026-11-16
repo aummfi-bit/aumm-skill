@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@40db2d525aa86dd1172c172a3ce25662fb06855a 08_bootstrap.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@649b69c722eb89b760f0c7014d7beba3ba018ca1 08_bootstrap.md — DO NOT EDIT -->
 # Bootstrap Rules
 
 *How new pools enter the emission economy.*
@@ -292,7 +292,7 @@ Glossary definitions in [Glossary §xxxii](12_aureum_glossary.md).
 
 ### Genesis Seeding (Constructor-Hardcoded)
 
-The Miliarium-pool ERC-4626 vault classes — waEthUSDC, ixEDEL, sUSDS-class wrappers, and the remainder per per-pool profiles in [miliarium_profiles/](miliarium_profiles/) — are admitted at deploy via **constructor-hardcoded constants** in `VaultClassRegistry.sol`. No one-shot seeding admin entrypoint.
+The Miliarium-pool ERC-4626 vault classes — waEthUSDC, svZCHF, sUSDS-class wrappers, and the remainder per per-pool profiles in [miliarium_profiles/](miliarium_profiles/) — are admitted at deploy via **constructor-hardcoded constants** in `VaultClassRegistry.sol`. No one-shot seeding admin entrypoint.
 
 The genesis class set is **bytecode-immutable**. Future classes enter via the `proposeVaultClass` + veto flow once on-chain governance is live, that is, once qualified voting power exists: while it is zero, `proposeVaultClass` refuses the proposal before its bond is pulled, since no veto could answer it. Pre-governance, the registry is frozen at its constructor-seeded set; pools using only genesis-admitted 4626 classes can be gauged permissionlessly, at creation or through `activateGauge` (§xxiv).
 
