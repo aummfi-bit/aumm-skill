@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@649b69c722eb89b760f0c7014d7beba3ba018ca1 sagix/our_layer_framework.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@a00fe619b1298d9b49b9568bc5a9fb13a0f14780 sagix/our_layer_framework.md — DO NOT EDIT -->
 # The four-layer framework: a complete liquidity risk assessment for DeFi
 
 **Canonical source (Sagix Apothecary):** https://www.sagix.io/our-layer-framework/

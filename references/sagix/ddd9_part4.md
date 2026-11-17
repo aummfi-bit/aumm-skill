@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@649b69c722eb89b760f0c7014d7beba3ba018ca1 sagix/ddd9_part4.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@a00fe619b1298d9b49b9568bc5a9fb13a0f14780 sagix/ddd9_part4.md — DO NOT EDIT -->
 # The Druid Deep Dive, Episode 9, Part 4: The hub: how Rothschild made London the nexus of everything
 
 **Canonical source (Sagix Apothecary):** https://www.sagix.io/ddd9p4/
