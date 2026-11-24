@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@08bfad76c88ee835ce58cde07e0e61bf23f1ae0f 05_miliarium_aureum.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@f16a83b74e2d381264aed4131a27578e91fe3cb1 05_miliarium_aureum.md — DO NOT EDIT -->
 # The Miliarium Aureum
 
 The 28 pools are pre-defined at launch and locked from block 0.
