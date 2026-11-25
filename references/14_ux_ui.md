@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@f16a83b74e2d381264aed4131a27578e91fe3cb1 14_ux_ui.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@ead0f4e567472d0c2db12d616ba4d0b7c855645b 14_ux_ui.md — DO NOT EDIT -->
 # UX / UI — Frontend Requirements
 
 *Dashboard and interface elements for aumm.fi. This is a planning document — no code yet.*
@@ -97,7 +97,7 @@ The MVP/post-MVP distinction is a planning tool — all of the sections below de
 ## l-a. Vault-Class Registry
 
 - [ ] **Proposed classes queue** — open proposals to admit a new ERC-4626 vault class to the registry; per proposal: proposer, the vault token admitted by its own address, bond amount, time remaining in veto window, vetoes accumulated vs threshold.
-- [ ] **Veto countdown** — per-proposal time-remaining indicator with auto-finalize block; AuMT-holder veto interface (cast / withdraw veto) gated on qualification, a cast listing the pools in which the holder's staked AuMT confers weight.
+- [ ] **Veto countdown** — per-proposal time-remaining indicator with auto-finalize block; AuMT-holder veto interface (cast veto, final once cast, with no withdrawal) gated on qualification, a cast listing the pools in which the holder's staked AuMT confers weight.
 - [ ] **Admitted classes list** — full registry: genesis classes hard-coded at construction plus post-genesis admissions; per entry: the vault token's own address, admission block, originating proposal (if post-genesis), revocation status. See [Bootstrap (§xxiv-a)](08_bootstrap.md) for the registry mechanism.
 
 ---
