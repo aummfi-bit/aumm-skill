@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@ead0f4e567472d0c2db12d616ba4d0b7c855645b 11_formulas.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@13c2076a8de6bfbe7e6f4bf3449c82a80b2ee3cd 11_formulas.md — DO NOT EDIT -->
 # Protocol Formulas
 
 *Every formula governing emission allocation, multiplier adjustment, governance power, and (for non-Miliarium targets) gauge-challenge deposits — organized by protocol phase. **All governance deposits** are **one-sided into der Bodensee Pool**; only amounts differ ([Constitution §xxvii](10_constitution.md)).*
@@ -102,7 +102,7 @@ alpha = 2 / 61                                            // ≈ 0.0328
 
 // Triggered once per BLOCKS_PER_DAY (permissionless call; deterministic math):
 if block.number ≥ lastEMAUpdateBlock[pool] + BLOCKS_PER_DAY:          // and the pool has a window TVL (Recovery mode, below)
-    twapTVL = svZCHF value of the pool's window-average balances      // Valuation, below
+    twapTVL = ZCHF value of the pool's window-average balances        // Valuation, below
               // window = the last TWAP_WINDOW_BLOCKS before the day boundary
 
     // Catch-up (one-sided): each day skipped since the last update steps toward the lesser of
@@ -117,12 +117,12 @@ if block.number ≥ lastEMAUpdateBlock[pool] + BLOCKS_PER_DAY:          // and t
                  / EMA_ALPHA_DENOMINATOR
                  // = (2 × twapTVL + 59 × tvlEMA[pool]) / 61
 
-    lastEMAUpdateBlock[pool] = block.number
+    lastEMAUpdateBlock[pool] = floor(block.number / BLOCKS_PER_DAY) × BLOCKS_PER_DAY   // the window's end, not the call block
 ```
 
 The EMA runs **per pool** independently. Half-life is approximately 21 days. Gas cost: an EMA update stays under **10,000,000 gas** for every Miliarium pool deployed at launch, and every swap pays for its per-token balance records. **Recovery mode.** A pool the Vault reports in recovery mode has **no window TVL**: its EMA does not advance, it prices nothing for other pools, and gauge discipline gives it no verdict ([Bootstrap](08_bootstrap.md) §xxiii). Once it leaves a recovery spell that saw a balance record or a recovery withdrawal it reads again only after a **clean write**, a balance record made outside recovery mode, **and then a full window**. A gauge activation attempted before then fails its TVL read, and its anti-spam fee is spent. A spell that saw neither leaves its records unchanged and adds no wait of its own.
 
-**Valuation.** TVL is denominated in svZCHF and read from each pool's per-token balance records averaged over the TWAP window, with no external price feed. Each leg is priced by its underlying's weighted balance ratio against svZCHF across the constellation's venues, read on the same window, directly or through one hop token (der Bodensee is a venue for AuMM alone), and only when the pool registers it under the rate provider the TVL oracle records for its token, none for a plain token; a leg under any other provider is unpriced. A venue with no window TVL under Recovery mode above, one whose pool data cannot be read and one reading a zero balance on either side are skipped, so AuMM, which no gauged pool may hold, leaving der Bodensee its only venue, is unpriced while der Bodensee is in recovery mode and, after the exit from a spell that saw a balance record or a recovery withdrawal, until a full window has passed after its next swap, add or remove. A leg with no such price is valued at the pool's own normalized weights against its priced legs, but only when those carry at least half the pool, which caps the extrapolation at twice the priced value; a new base token therefore needs no mapping, while a new ERC-4626 token maps, once its vault class is admitted, to a rate provider the TVL oracle deploys on the vault's own `convertToAssets`, composed with its asset's recorded provider, and its leg is valued as one with no such price.
+**Valuation.** TVL is denominated in ZCHF — svZCHF counts at its rate-scaled balance, its ZCHF value — and read from each pool's per-token balance records averaged over the TWAP window, with no external price feed. Each leg is priced by its underlying's weighted balance ratio against svZCHF across the constellation's venues, read on the same window, directly or through one hop token (der Bodensee is a venue for AuMM alone), and only when the pool registers it under the rate provider the TVL oracle records for its token, none for a plain token; a leg under any other provider is unpriced. A venue with no window TVL under Recovery mode above, one whose pool data cannot be read and one reading a zero balance on either side are skipped, so AuMM, which no gauged pool may hold, leaving der Bodensee its only venue, is unpriced while der Bodensee is in recovery mode and, after the exit from a spell that saw a balance record or a recovery withdrawal, until a full window has passed after its next swap, add or remove. A leg with no such price is valued at the pool's own normalized weights against its priced legs, but only when those carry at least half the pool, which caps the extrapolation at twice the priced value; a new base token therefore needs no mapping, while a new ERC-4626 token maps, once its vault class is admitted, to a rate provider the TVL oracle deploys on the vault's own `convertToAssets`, composed with its asset's recorded provider, and its leg is valued as one with no such price.
 
 ---
 

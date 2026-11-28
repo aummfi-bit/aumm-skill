@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@ead0f4e567472d0c2db12d616ba4d0b7c855645b 07a_tokens.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@13c2076a8de6bfbe7e6f4bf3449c82a80b2ee3cd 07a_tokens.md — DO NOT EDIT -->
 # Token inventory — Miliarium Aureum
 
 *Deduplicated list of every token in the **28** Miliarium Aureum pools ([registry Section xi](05_miliarium_aureum.md)). **svZCHF** and **ixEDEL** are the **dual universal connectors** — both present in **26 of 28** Miliarium pools as cross-pool routing rails (svZCHF the deeper / primary at typically 26% as yield core, ixEDEL the secondary / arb-extraction layer at 16% as routing anchor). svZCHF additionally anchors the protocol fee sink (der Bodensee, governance deposits, Incendiary boosts, fee inflows). See [Mental model (§iii — Dual anchors)](02_mental_model.md). **Pool name(s)** for those two anchors left blank here. **Tokenised vault** holds pool / vault contract addresses (e.g. Balancer V3) where relevant; more entries as wired. Ethereum addresses, rate providers, and vaults are deployment-specific; blank until wired on-chain.*

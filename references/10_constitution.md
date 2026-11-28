@@ -1,4 +1,4 @@
-<!-- GENERATED FROM aumm-site@ead0f4e567472d0c2db12d616ba4d0b7c855645b 10_constitution.md — DO NOT EDIT -->
+<!-- GENERATED FROM aumm-site@13c2076a8de6bfbe7e6f4bf3449c82a80b2ee3cd 10_constitution.md — DO NOT EDIT -->
 # Constitution
 
 *The immutable operating law of Aureum.*
@@ -13,7 +13,7 @@
 - **Fee proposals** — **swap fee** changes **within immutable bounds** on Miliarium and non-Miliarium gauged pools (der Bodensee's fee and the 10% yield skim are fixed, §xxix); deposit **one-sided into der Bodensee Pool**. Voting model: [Tokenomics](04_tokenomics.md) §ix (Governance); mechanics: [Bootstrap](08_bootstrap.md) §xxiv (Governance Proposals).
 - **Miliarium Aureum Composition Challenge** — **2/3 supermajority** tessera-weighted vote to deprecate a pool and **replace** assets in-slot (like-for-like), or to fill an empty slot; deposit **one-sided into der Bodensee Pool**. Details: [Bootstrap](08_bootstrap.md) §xxiv (Miliarium Aureum Composition Challenge) and **### Composition Challenge Rule** below.
 - **Vault-Class Registry Admission** — **propose a new ERC-4626 token class** for inclusion in the **Quality Gate numerator** ([Tokenomics §ix](04_tokenomics.md)); follows a **proposal-with-veto** model rather than vote-to-approve. Deposit **one-sided into der Bodensee Pool**. Details: [Bootstrap](08_bootstrap.md) §xxiv-a (Vault-Class Registry).
-- **Vault-Class Revocation** — **revoke** an admitted ERC-4626 token class, which stops counting toward the Quality Gate numerator from the revocation's execution, for pools not yet gauged and for a pool then named as a composition candidate; simple majority; deposit **one-sided into der Bodensee Pool**.
+- **Vault-Class Revocation** — **revoke** an admitted ERC-4626 token class, which stops counting toward the Quality Gate numerator from the revocation's execution, for pools not yet gauged and for a pool then named as a composition candidate; a genesis class cannot be revoked; simple majority; deposit **one-sided into der Bodensee Pool**.
 - **Vault Authorizer Change** — install the one governance-only authorizer fixed at deployment, which grants governance every action, a keyless recovery trigger only recovery-mode entry and exit, and no one else anything, ending the emergency principal's role if its window is still open; **2/3 supermajority**; once installed the authorizer is final, and no later change replaces it; deposit **one-sided into der Bodensee Pool**.
 - **Pool Pause** — pause a batch of pools, governance's per-pool emergency lever, open only within each pool's own pause window, four years from the factory's deployment for every pool Aureum's factory creates; **2/3 supermajority**; deposit **one-sided into der Bodensee Pool**.
 - **Pool Unpause**, **Vault Unpause** and **Recovery-Mode Disable** — the de-escalation counterparts, each at a simple majority and creatable only while the state it clears is present; a Pool Unpause also lifts recovery mode from each pool it unpauses and cannot execute while the Vault is paused, a Recovery-Mode Disable cannot execute while the Vault or any pool it names is paused, and neither lifts recovery mode from a pool whose rate read reverts or reads zero; deposit **one-sided into der Bodensee Pool**.
@@ -33,7 +33,7 @@ All core contracts immutable from block 0. Governance exists for non-emission ac
 
 ### Governance Scope (Non-Emission Only)
 
-Qualified AuMT holders submit and vote on the **ten actions** above. All but one follow a **vote-to-approve** model; **Vault-Class Registry admission** follows a **proposal-with-veto** model (per [Bootstrap](08_bootstrap.md) §xxiv-a). Governance cannot alter emission formulas, halving math, CCB multiplier constants, or other immutable parameters.
+Any address can submit, and qualified AuMT holders vote on, the **ten actions** above. All but one follow a **vote-to-approve** model; **Vault-Class Registry admission** follows a **proposal-with-veto** model (per [Bootstrap](08_bootstrap.md) §xxiv-a). Governance cannot alter emission formulas, halving math, CCB multiplier constants, or other immutable parameters.
 
 ### Quorum and Deposit Requirements
 
@@ -80,7 +80,7 @@ Activates only when an asset **ceases to function** (delisting, wrapper sunset, 
 
 The **Vault-Class Registry** — the on-chain set of ERC-4626 token classes admitted to the **Quality Gate numerator** ([Tokenomics §ix](04_tokenomics.md)) — follows a **proposal-with-veto** model, not vote-to-approve. A class proposed via `proposeVaultClass(...)` enters a **veto window**; the proposal **auto-finalizes** at window expiry unless governance casts a vetoing vote that meets the veto threshold or the total qualified voting power read zero at any block of the window.
 
-The model fits the action: class admission is a **bounded, well-typed verification** that an ERC-4626 implementation is non-malicious and properly composable — not a contested protocol change. Governance retains a hard backstop via the **veto** path during the window and via **revocation** (`revokeVaultClass(...)`) at any later point; a revocation stops the class counting for pools not yet gauged and leaves a pool already gauged as it is. Mechanism details, admission by token address, genesis seeding, and revocation: [Bootstrap §xxiv-a](08_bootstrap.md). Tunable bounds (proposal bond, veto threshold, window length): §xxix below.
+The model fits the action: class admission is a **bounded, well-typed verification** that an ERC-4626 implementation is non-malicious and properly composable — not a contested protocol change. Governance retains a hard backstop via the **veto** path during the window and via **revocation** (`revokeVaultClass(...)`) of any class but a genesis class at any later point; a revocation stops the class counting for pools not yet gauged and leaves a pool already gauged as it is. Mechanism details, admission by token address, genesis seeding, and revocation: [Bootstrap §xxiv-a](08_bootstrap.md). Tunable bounds (proposal bond, veto threshold, window length): §xxix below.
 
 ### Proposal Data Integrity Rule
 
